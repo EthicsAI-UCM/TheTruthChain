@@ -12,9 +12,7 @@
 
 - *Nombre de preferencia*: Iris
 
-- *Rol NSEO*: Sureste
-
-- *Rol MBTI*: INFP-A
+- *Rol NSEO y MBTI*: Sureste, INFP-A
 
 - *Fortalezas*: Sensibilidad al detalle, capacidad analítica, planificación, organización, diligencia, apertura a la comunicación, rapidez de aprendizaje.
 
