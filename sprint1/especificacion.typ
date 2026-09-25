@@ -23,6 +23,7 @@
 
 
 // parte principal en otros ficheros
+#include "integrantes.typ" 
 #include "nombre_descripcion.typ" // Por ejemplo, podeis cambiar el nombre del fichero.
 // ... 
 
