@@ -8,6 +8,10 @@
 
 *Alicia Pereda Bordejé*
 
+- *Nombre de preferencia*: Alicia
+
+- *Rol NSEO y MBTI*: Este, ISTJ-T
+
 *Jiayi Wang*
 
 - *Nombre de preferencia*: Iris
