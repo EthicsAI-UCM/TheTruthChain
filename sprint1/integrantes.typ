@@ -7,6 +7,10 @@
 
 *Jiahao Cheng*
 
+- *Nombre de preferencia*: Jiahao
+
+- *Rol NSEO y MBTI*: Nor-este, INTJ
+
 *Jorge Hernández Palop*
 
 *Alicia Pereda Bordejé*
