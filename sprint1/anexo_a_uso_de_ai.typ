@@ -11,7 +11,7 @@
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   = Script de compilación automática
 
-  Para la organización del repositorio se usó la IA para la creación del script `build.sh` el objetivo de este script era tener una manera cómoda, rápida y uniforme de compilar los archivos de `Typst` del repositorio.
+  Se usó la IA para la creación del script `build.sh` que sirve para organizar el repositorio. El objetivo de este script era tener una manera cómoda, rápida y uniforme de compilar los archivos de `Typst` del repositorio.
 
   Para ello se hizo uso del agente de código _Pi_ con el modelo _DeepSeek V4.1 Flash_.
 
