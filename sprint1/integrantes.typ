@@ -1,6 +1,9 @@
 = Integrantes del equipo
 
 *Yao Chen*
+- *Nombre de preferencia*: Yao
+
+- *Rol NSEO y MBTI*: Sur-oeste, ISFP-T
 
 *Jiahao Cheng*
 
