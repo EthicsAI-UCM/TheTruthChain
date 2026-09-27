@@ -6,7 +6,12 @@
   align: (center, center, center, center, left, left),
   table.header([*Nombre \ completo*], [*Nombre \ preferido*], [*NSEO*], [*MBTI*], [*Fortalezas*], [*Debilidades*]),
 
-  [Yao Chen], [Yao], [Suroeste], [ISFP-T], [], [],
+  [Yao Chen],
+  [Yao], 
+  [Suroeste], 
+  [ISFP-T], 
+  [Sensibilidad al detalle, empatía, adaptabilidad y cooperación],
+  [Indecisión, dificultad ante los conflictos y planificación a largo plazo.],
 
   [Jiahao Cheng],
   [Jiahao],
