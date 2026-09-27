@@ -11,6 +11,10 @@
 
 - *Rol NSEO y MBTI*: Nor-este, INTJ
 
+- *Fortalezas*: Estratégico, perfeccionista, curioso, aprendizaje rápido.
+
+- *Debilidades*: Arrogante, vagueza ante tareas que generan poco interés.
+
 *Jorge Hernández Palop*
 
 *Alicia Pereda Bordejé*
