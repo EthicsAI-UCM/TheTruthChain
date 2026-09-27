@@ -5,5 +5,6 @@ El sistema podrá detectar contradicciones, diferencias de contexto y posibles s
 
 == Tecnlogía usada
 
-Para obtener los datos de diferentes fuentes, se hará uso de web scraping, feeds RSS y APIs cuando estas estén disponibles. 
+Para obtener los datos de diferentes fuentes, se hará uso de web scraping, feeds RSS y APIs cuando estas estén disponibles.
 En el caso de los LLMs, se podrá realizar fine-tuning de un modelo abierto para mejorar tareas concretas como la comparación entre fuentes y la generación de informes. Además, se utilizarán técnicas de RAG para proporcionar al modelo únicamente las fuentes relacionadas con cada acontecimiento. Para almacenar y consultar la información se podrán utilizar tecnologías como PostgreSQL, pgvector o Elasticsearch, mientras que Python, FastAPI y Docker facilitarán el desarrollo y despliegue del sistema.
+
