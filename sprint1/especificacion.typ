@@ -13,8 +13,9 @@
 
 //======================================
 
-// portada
-#include "portada.typ"
+// portada reutilizable (título, número de sprint)
+#import "../template/portada.typ": portada
+#portada("Especificación", 1)
 
 // indice
 #outline(title: "Índice")
