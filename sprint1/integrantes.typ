@@ -33,6 +33,6 @@
 
 - *Rol NSEO y MBTI*: Sureste, INFP-A
 
-- *Fortalezas*: Sensibilidad al detalle, capacidad analítica, planificación, organización, diligencia, apertura a la comunicación, rapidez de aprendizaje.
+- *Fortalezas*: Sensibilidad al detalle, planificación, organización, diligencia.
 
-- *Debilidades*: Impaciencia, gestión del estrés, dificultad para la puesta en práctica de tareas sin una planificación mental previa o una idea completamente definida, falta de concentración.
+- *Debilidades*: Impaciencia, dificultad para la puesta en práctica de tareas sin una planificación mental previa o una idea completamente definida.
