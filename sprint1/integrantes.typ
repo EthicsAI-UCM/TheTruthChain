@@ -19,6 +19,10 @@
 
 - *Rol NSEO y MBTI*: Este, ISTJ-T
 
+- *Fortalezas*: Responsabilidad, constancia y adaptabilidad
+
+- *Debilidades*: gestión del tiempo y exposiciones
+
 *Jiayi Wang*
 
 - *Nombre de preferencia*: Iris
