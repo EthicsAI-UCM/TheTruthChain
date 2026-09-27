@@ -3,9 +3,7 @@ name: Compile files
 on:
   # Triggers the workflow on push
   push:
-    # No re-ejecutar cuando el propio workflow actualiza docs/
-    paths-ignore:
-      - 'docs/**'
+    branches: [main]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -18,16 +16,30 @@ jobs:
   compile_files:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # necesario para hacer push de docs/
+      contents: write   # necesario para hacer push a la rama documents
     steps:
-      - uses: actions/checkout@v7
-      - uses: typst-community/setup-typst@v5
-      - run: ./build.sh
+      - name: Checkout source (main)
+        uses: actions/checkout@v7
+        with:
+          path: src
 
-      - name: Commit docs
+      - name: Checkout documents branch
+        uses: actions/checkout@v7
+        with:
+          ref: documents
+          path: out
+
+      - uses: typst-community/setup-typst@v5
+
+      - name: Compile into the documents branch
+        working-directory: src
+        run: ./build.sh ../out
+
+      - name: Commit and push PDFs
+        working-directory: out
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs
+          git add -A
           git diff --staged --quiet || git commit -m "docs: recompilar PDFs [skip ci]"
           git push

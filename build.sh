@@ -2,6 +2,9 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
+dest="${1:-docs}"
+dest="${dest%/}"
+
 shopt -s nullglob
 dirs=(sprint*/)
 
@@ -29,12 +32,12 @@ compile_file() {
 
   local out
   if [ -z "$anexo" ]; then
-    out="docs/Sprint ${sprint} - ${title}.pdf"
+    out="${dest}/Sprint ${sprint} - ${title}.pdf"
   else
-    out="docs/Sprint ${sprint}${anexo} - ${title}.pdf"
+    out="${dest}/Sprint ${sprint}${anexo} - ${title}.pdf"
   fi
 
-  mkdir -p "docs"
+  mkdir -p "$dest"
   typst compile --root . "$file" "$out"
   echo "==> ${file}  ->  ${out}"
 }
