@@ -6,6 +6,8 @@
 #let nombre = "Desafios AI"
 #let bibliografia = path("./biblio.bib")
 
+
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
+  #include "profundizar_riesgos.typ"
   #include "posturas.typ"
 ]
