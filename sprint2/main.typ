@@ -11,4 +11,5 @@
   #include "profundizar_riesgos.typ"
   #include "posturas.typ"
   #include "mockup_gui.typ"
+  #include "personalizacion.typ"
 ]
