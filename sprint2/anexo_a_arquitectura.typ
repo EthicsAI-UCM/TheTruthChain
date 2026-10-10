@@ -30,7 +30,7 @@
 
   == Afirmaciones
 
-  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden se clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con que clase afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones... Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de donde proceden.
+  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden se clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con que clase de afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones, etc. Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de dónde proceden.
 
   == Temas
 
@@ -52,20 +52,20 @@
 
   === Noticias
 
-  Para extraer los datos de medios de prensa utilizaremos de manera principal web scrapping o RSS. Para realizar web scrappingdebemos de tener cuidado con los términos que ponen los periódicos para ser web scrappeados. Estudiaremos cada medio y diseñaremos un scrapper para cada medio atentiendo a restricciones como el `robot.txt` de la web. En los casos que no sea legal realizar este scrappeo automatizado por que la información no sea pública o no esté disponible optaremos por subscribirnos al periódico o contactar directamente con el mismo para que nos permita usar sus publicaciones.
+  Para extraer los datos de medios de prensa utilizaremos de manera principal web scrapping o RSS. Para realizar web scrapping debemos de tener cuidado con los términos que ponen los periódicos para ser web scrappeados. Estudiaremos cada medio y diseñaremos un scrapper para cada uno atentiendo a restricciones como el `robot.txt` de la web. En los casos que no sea legal realizar este scrappeo automatizado porque la información no sea pública o no esté disponible optaremos por subscribirnos al periódico o contactar directamente con el mismo para que nos permita usar sus publicaciones.
 
   === Redes sociales (_X_)
 
   Para extraer los datos en _X_ usaremos la API oficial #cite(<twitter_dev>) de pago que proveen. Existen dos niveles de API la básica de pago por uso y la _enterprise_. En el peor caso solo tendremos acceso a la versión de pago por uso. Con esta versión obtendremos acceso a usuarios, publicaciones y trends.
 
-  Por defecto nos interesa extraer información de manera periódica de una lista perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_... . Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta, realizar un sistema que aprovechando la información que se procesa permita descubrir nuevos perfiles de interés emergentes que deberán de ser válidados por una persona para ser introducidos en la lista de perfiles públicos de interés.
+  Por defecto nos interesa extraer información de manera periódica de una lista perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_, etc. Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta, realizar un sistema que aprovechando la información que se procesa permita descubrir nuevos perfiles de interés emergentes que deberán de ser válidados por una persona para ser introducidos en la lista de perfiles públicos de interés.
 
   #figure(
     image("recursos/backend_extract_user_twitter.png", width: 50%),
     caption: [Extracción de datos de perfiles en _X_],
   )
 
-  Otra información de interés son los últimos trends en la plataforma. Esta información permite analizar como se transforma el panórame público a lo largo del tiempo. Por ejemplo permite analizar la pérdida de relevancia de un tema a lo largo del tiempo. Esto es útil porque permite detectar cortinas de humo que muevan el foco de la atención pública a otros lados.
+  Otra información de interés son los últimos trends en la plataforma. Esta información permite analizar cómo se transforma el panórame público a lo largo del tiempo. Por ejemplo, permite analizar la pérdida de relevancia de un tema a lo largo del tiempo. Esto es útil porque permite detectar cortinas de humo que muevan el foco de la atención pública a otros lados.
 
   #figure(
     image("recursos/backend_extract_trend_twitter.png", width: 50%),
@@ -83,7 +83,7 @@
 
   === Preprocesamiento de texto
 
-  Para hacer que el sistema funcione de manera más robusta es mejor que todo se encuentre en un mismo idioma. Por tanto todo texto que pasa por el sistema será traducido al español también habrá que detectar faltas de ortografía, coherencia o cohesión que puedan llevar a una confusión dentro del texto. Toda modificación que se haga del texto estarájustificada y siempre habrá un enlace al texto original sin clasificar.
+  Para hacer que el sistema funcione de manera más robusta es mejor que todo se encuentre en un mismo idioma. Por tanto todo texto que pasa por el sistema será traducido al español también habrá que detectar faltas de ortografía, coherencia o cohesión que puedan llevar a una confusión dentro del texto. Toda modificación que se haga del texto estará justificada y siempre habrá un enlace al texto original sin clasificar.
 
   #figure(
     image("recursos/PRE_text.png", width: 80%),
@@ -106,7 +106,7 @@
 
   = Motor de inferencia
 
-  El motor de inferencia se encarga de tomar los datos poco procesados de la módulo de Internet e ir procesándolos poco para intentar sacar conclusiones, ver contradicciones, analizar tendencias, contrastar fuentes.
+  El motor de inferencia se encarga de tomar los datos poco procesados del módulo de Internet e ir procesándolos poco para intentar sacar conclusiones, ver contradicciones, analizar tendencias, contrastar fuentes.
 
   == Análisis de textos
 
@@ -114,13 +114,13 @@
 
   == Análisis de las fuentes
 
-  Otro módulo del motor inferencia será el que se encargue de verificar la válidez y sesgos delas distintas fuentes que alimentan a la base de conocimiento. De esta manera podemos tener cierta incertidumbre que puede ser usado por el resto de pipelines para tratar la información con una mayor importancia o que puede ser usada por el usuario, para ver si da la información como buena o debe de investigar más por su cuenta.
+  Otro módulo del motor inferencia será el que se encargue de verificar la válidez y sesgos de las distintas fuentes que alimentan a la base de conocimiento. De esta manera podemos tener cierta incertidumbre que puede ser usado por el resto de pipelines para tratar la información con una mayor importancia o que puede ser usada por el usuario, para ver si da la información como buena o debe de investigar más por su cuenta.
 
   == Análisis de tendencias y anomalias
 
-  La idea de este modulo es tener visión "áerea" de un tema o varios temas relacionados y analizar anomalías o tendencias que se han dado. El objetivo no es llegar a conclusiones solidas pero si realizar hallazgos o análisis que pueden motivar una búsqueda más profunda en ciertos temas. Por ejemplo se puede dar un tema tendencia en RRSS y posteriormente que al par de días una persona de interés hable del tema, es interesante si este comportamiento se produce con todos los temas o solo con algunos.
+  La idea de este módulo es tener visión "áerea" de un tema o varios temas relacionados y analizar anomalías o tendencias que se han dado. El objetivo no es llegar a conclusiones sólidas pero si realizar hallazgos o análisis que pueden motivar una búsqueda más profunda en ciertos temas. Por ejemplo, se puede dar un tema tendencia en RRSS y posteriormente que al par de días una persona de interés hable del tema, es interesante si este comportamiento se produce con todos los temas o solo con algunos.
 
   = Interacción con el usuario
 
-  El usuario no tendrá acceso directamente al sistema. Su acceso se realizará por medio de una interfaz web donde podrá buscar información relevante filtrada por persona, tema de conversación o por afirmación concreta. En ningún caso la idea será que haya algún tipo de chat de texto con un bot. El usuario buscará el elemento que quiera y el sistema le devolverá unos reportes provenientes de la información almacenada en la base de conocimiento. La idea para compilar estos reportes es usar la menor cantidad de sistemas basados en LLM e intentar usar sobretodo clasificatores para seleccionar que información es más importante. En este apartado es muy prometedor el uso de los nuevos modelos _Jev-based_, como por ejemplo Clef.
+  El usuario no tendrá acceso directamente al sistema. Su acceso se realizará por medio de una interfaz web donde podrá buscar información relevante filtrada por persona, tema de conversación o por afirmación concreta. En ningún caso la idea será que haya algún tipo de chat de texto con un bot. El usuario buscará el elemento que quiera y el sistema le devolverá unos reportes provenientes de la información almacenada en la base de conocimiento. La idea para compilar estos reportes es usar la menor cantidad de sistemas basados en LLM e intentar usar, sobretodo, clasificadores para seleccionar que información es más importante. En este apartado es muy prometedor el uso de los nuevos modelos _Jev-based_, como por ejemplo _Clef_.
 ]
