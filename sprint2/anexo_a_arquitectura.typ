@@ -11,7 +11,7 @@
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   = Introducción
 
-  Nuestra aplicación permite hacer consultas sobre personas/entidades y temas o sucesos con los que están o han estado implicado. La arquitectura principal será similar a la un sistema experto. Sin embargo, el motor de inferencia no tendrá solo reglas clásicas si no que serán pipelines basados en modelos de lenguaje. Además habrá un modulo con conexión a Internet que permite obtener nueva información de manera automática o bajo demanda.
+  Nuestra aplicación permite hacer consultas sobre personas/entidades y temas o sucesos con los que están o han estado implicados. La arquitectura principal será similar a la de un sistema experto. Sin embargo, el motor de inferencia no tendrá solo reglas clásicas si no que serán pipelines basados en modelos de lenguaje. Además habrá un modulo con conexión a Internet que permite obtener nueva información de manera automática o bajo demanda.
 
 
   #figure(
@@ -30,7 +30,7 @@
 
   == Afirmaciones
 
-  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden se clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con que clase de afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones, etc. Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de dónde proceden.
+  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con que clase de afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones, etc. Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de dónde proceden.
 
   == Temas
 
@@ -46,7 +46,7 @@
 
   = Módulo de Internet
 
-  Este módulo se encarga de obtener información de Internet a través de distintos medios como pueden ser las RRSS, noticias o delcaraciones en sitios oficiales.
+  Este módulo se encarga de obtener información de Internet a través de distintos medios como pueden ser las RRSS, noticias o declaraciones en sitios oficiales.
 
   == Fuentes de información.
 
@@ -56,16 +56,16 @@
 
   === Redes sociales (_X_)
 
-  Para extraer los datos en _X_ usaremos la API oficial #cite(<twitter_dev>) de pago que proveen. Existen dos niveles de API la básica de pago por uso y la _enterprise_. En el peor caso solo tendremos acceso a la versión de pago por uso. Con esta versión obtendremos acceso a usuarios, publicaciones y trends.
+  Para extraer los datos en _X_ usaremos la API oficial #cite(<twitter_dev>) de pago que proveen. Existen dos niveles de API: la básica de pago por uso y la _enterprise_. En el peor caso solo tendremos acceso a la versión de pago por uso. Con esta versión obtendremos acceso a usuarios, publicaciones y trends.
 
-  Por defecto nos interesa extraer información de manera periódica de una lista perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_, etc. Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta realizar un sistema que, aprovechando la información que se procesa, permita descubrir nuevos perfiles de interés emergentes. Estos deberán de ser validados por una persona para ser introducidos en la lista de perfiles públicos de interés.
+  Por defecto nos interesa extraer información de manera periódica de una lista de perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_, etc. Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta realizar un sistema que, aprovechando la información que se procesa, permita descubrir nuevos perfiles de interés emergentes. Estos deberán de ser validados por una persona para ser introducidos en la lista de perfiles públicos de interés.
 
   #figure(
     image("recursos/backend_extract_user_twitter.png", width: 50%),
     caption: [Extracción de datos de perfiles en _X_],
   )
 
-  Otra información de interés son los últimos trends en la plataforma. Esta información permite analizar cómo se transforma el panórame público a lo largo del tiempo. Por ejemplo, permite analizar la pérdida de relevancia de un tema a lo largo del tiempo. Esto es útil porque permite detectar cortinas de humo que muevan el foco de la atención pública a otros lados.
+  Otra información de interés son los últimos trends en la plataforma. Esta información permite analizar cómo se transforma el panorama público a lo largo del tiempo. Por ejemplo, permite analizar la pérdida de relevancia de un tema a lo largo del tiempo. Esto es útil porque permite detectar cortinas de humo que muevan el foco de la atención pública a otros lados.
 
   #figure(
     image("recursos/backend_extract_trend_twitter.png", width: 50%),
@@ -74,16 +74,16 @@
 
   === Otras fuentes
 
-  Existen datos que no sea encuentran en noticias o medios directamente o que se podrían ver alterados por eso en muchos casos lo mejor es dirigirse a la fuente de la información original. Estas fuentes son variada y pueden ir desde estudios independientes o estadísticas hasta declaraciones públicas en páginas web oficiales o vídeos de plenos parlamentarios y ruedas de prensa. Para identificar estas fuentes habrá que realizar una extracción de datos especializada y ajustada al formato de cada fuente. No es lo mismo extraer una sesión del parlamento que extraer estadística del informe del paro anual.
+  Existen datos que no se encuentran en noticias o medios directamente o que se podrían ver alterados, por eso en muchos casos lo mejor es dirigirse a la fuente de la información original. Estas fuentes son variadas y pueden ir desde estudios independientes o estadísticas hasta declaraciones públicas en páginas web oficiales o vídeos de plenos parlamentarios y ruedas de prensa. Para identificar estas fuentes habrá que realizar una extracción de datos especializada y ajustada al formato de cada fuente. No es lo mismo extraer una sesión del parlamento que extraer una estadística del informe del paro anual.
 
   == Preprocesamiento
 
   Todos los datos que obtenemos deben pasar por una fase de preprocesamiento para poder ser ingeridos por el sistema de manera correcta. Este preprocesamiento tiene tres fases:
-  un filtrado previo, que tiene como objetivo evitar procesar información innecesaria o inútil; un preprocesamiento específico según el formato del dato; un filtrado posterior una vez procesada la fuente que permite verificar que la información preprocesada es útil.
+  un filtrado previo, que tiene como objetivo evitar procesar información innecesaria o inútil; un preprocesamiento específico según el formato del dato; y un filtrado posterior una vez procesada la fuente que permite verificar que la información preprocesada es útil.
 
   === Preprocesamiento de texto
 
-  Para hacer que el sistema funcione de manera más robusta es mejor que todo se encuentre en un mismo idioma. Por tanto todo texto que pasa por el sistema será traducido al español también habrá que detectar faltas de ortografía, coherencia o cohesión que puedan llevar a una confusión dentro del texto. Toda modificación que se haga del texto estará justificada y siempre habrá un enlace al texto original sin clasificar.
+  Para hacer que el sistema funcione de manera más robusta es mejor que todo se encuentre en un mismo idioma. Por tanto todo texto que pasa por el sistema será traducido al español y también habrá que detectar faltas de ortografía, coherencia o cohesión que puedan llevar a una confusión dentro del texto. Toda modificación que se haga del texto estará justificada y siempre habrá un enlace al texto original sin clasificar.
 
   #figure(
     image("recursos/PRE_text.png", width: 80%),
@@ -102,7 +102,7 @@
 
   == Pipelines
 
-  La idea del modulo es que se utilizado como motor de búsqueda y consulta por parte del motor de inferencia, si el grafo de conocimiento no contiene toda la información necesaria. Por otro lado, también existen pipelines que corren de manera automática que añaden información de manera periódica al grafo de conocimiento. Un ejemplo de este pipeline sería uno que cada mañana leyese las noticias de un periódico y las introduzca dentro de la base de conocimiento.
+  La idea del módulo es que se utilizado como motor de búsqueda y consulta por parte del motor de inferencia, si el grafo de conocimiento no contiene toda la información necesaria. Por otro lado, también existen pipelines que corren de manera automática que añaden información de manera periódica al grafo de conocimiento. Un ejemplo de este pipeline sería uno que cada mañana leyese las noticias de un periódico y las introduzca dentro de la base de conocimiento.
 
   = Motor de inferencia
 
@@ -114,7 +114,7 @@
 
   == Análisis de las fuentes
 
-  Otro módulo del motor inferencia será el que se encargue de verificar la válidez y sesgos de las distintas fuentes que alimentan a la base de conocimiento. De esta manera podemos tener cierta incertidumbre que puede ser usado por el resto de pipelines para tratar la información con una mayor importancia o que puede ser usada por el usuario, para ver si da la información como buena o debe de investigar más por su cuenta.
+  Otro módulo del motor de inferencia será el que se encargue de verificar la válidez y sesgos de las distintas fuentes que alimentan a la base de conocimiento. De esta manera podemos tener cierta incertidumbre que puede ser usado por el resto de pipelines para tratar la información con una mayor importancia o que puede ser usada por el usuario, para ver si da la información como buena o debe de investigar más por su cuenta.
 
   == Análisis de tendencias y anomalias
 
