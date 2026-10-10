@@ -58,7 +58,7 @@
 
   Para extraer los datos en _X_ usaremos la API oficial #cite(<twitter_dev>) de pago que proveen. Existen dos niveles de API la básica de pago por uso y la _enterprise_. En el peor caso solo tendremos acceso a la versión de pago por uso. Con esta versión obtendremos acceso a usuarios, publicaciones y trends.
 
-  Por defecto nos interesa extraer información de manera periódica de una lista perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_, etc. Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta, realizar un sistema que aprovechando la información que se procesa permita descubrir nuevos perfiles de interés emergentes que deberán de ser válidados por una persona para ser introducidos en la lista de perfiles públicos de interés.
+  Por defecto nos interesa extraer información de manera periódica de una lista perfiles de interés. Dentro esta información se incluyen posts o comentarios, _retweets_, etc. Estos perfiles de interés se seleccionan de manera manual. Aunque no se descarta realizar un sistema que, aprovechando la información que se procesa, permita descubrir nuevos perfiles de interés emergentes. Estos deberán de ser validados por una persona para ser introducidos en la lista de perfiles públicos de interés.
 
   #figure(
     image("recursos/backend_extract_user_twitter.png", width: 50%),
