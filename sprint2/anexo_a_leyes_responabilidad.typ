@@ -39,7 +39,7 @@ c) La información gráfica sobre un suceso o acaecimiento público cuando la im
 
 Las excepciones contempladas en los párrafos a) y b) no serán de aplicación respecto de las autoridades o personas que desempeñen funciones que por su naturaleza necesiten el anonimato de la persona que las ejerza.]
 
-Creemos que este artículo es fundamental para nuestro proyecto debido a que establece las situaciones en las que sí se permite captar y publicar noticias sin consentimiento, especialmente si se trata de personas públicas en actos o lugares públicos, o cuando existe existe un *interés histórico o cultural de relevancia*. Aun así, no se permite vulnerar otros derechos fundamentales (respetar lo explicado sobre el artículo anterior sobre las intromisiones ilegítimas) y las noticias deben ser proporcionales a los hechos. 
+Creemos que este artículo es fundamental para nuestro proyecto debido a que establece las situaciones en las que sí se permite captar y publicar noticias sin consentimiento, especialmente si se trata de personas públicas en actos o lugares públicos, o cuando existe un *interés histórico o cultural de relevancia*. Aun así, no se permite vulnerar otros derechos fundamentales (respetar lo explicado sobre el artículo anterior sobre las intromisiones ilegítimas) y las noticias deben ser proporcionales a los hechos. 
 
 Finalmente en el artículo nueve @ley_1982 se esclarecen las *consecuencias de difamar a alguien*. ¿Qué tendríamos que hacer en este caso? 
 Pues aquí se pone de manifiesto que no es suficiente retirar el contenido, el juez puede obligar a la empresa/organización a publicar la sentencia o una parte de esta con la misma difusión o incluso puede obligar a pagar al afectado con todo el beneficio obtenido de este fallo. 

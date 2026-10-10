@@ -15,7 +15,7 @@
 
 == Uso de hechos
 
-Nuestra base de conocimiento guarda afirmaciones con su fuente asociada, no artículos completos. La ley lo permite porque las noticias del día y los sucesos no están protegidos por derechos de autor @conv_berna. En cambio, lo que sí estña protegido  es la forma que redacta el periodista el noticia por considerarse "creación original".
+Nuestra base de conocimiento guarda afirmaciones con su fuente asociada, no artículos completos. La ley lo permite porque las noticias del día y los sucesos no están protegidos por derechos de autor @conv_berna. En cambio, lo que sí está protegido  es la forma que redacta el periodista la noticia por considerarse "creación original".
 
 En nuestro caso, no usaremos la redacción o el texto explícito de una noticia sino solo el hecho del que se habla, por lo que no supondría violación a derechos del autor de ningún modo. Además de que siempre redirigiremos a la fuente en la que obtenemos la información referenciando la noticia y el medio correspondiente.
 
