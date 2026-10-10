@@ -37,3 +37,7 @@ Si nuestro sistema llega a usarse a gran escala y tener una influencia grande en
 *Exceso de confianza*
 
 Nuestra idea es generar informes para que el usuario tenga información ordenada en su mano y que pueda contrastar toda la información consultando a las fuentes originales para que pueda reflexionar, bajo su propio criterio, lo que ocurre en la realidad en la que vive. Sin embargo, no se puede descartar que si nuestro sistema llega a tener cierta influencia en la sociedad, el público pueda tener un exceso de confianza en el sistema y no consultar ninguna de las fuentes originales. TTC podría estar influenciando en las opiniones de la gente aunque no es lo que pretenda.
+
+=== Mitigaciones
+
+#link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%202F%20-%20Mitigación%20de%20riesgos.pdf")[Apéndice F: Mitigación de riesgos]
