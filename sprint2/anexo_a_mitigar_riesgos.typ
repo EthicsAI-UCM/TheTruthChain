@@ -14,9 +14,9 @@
 
   == Riesgos derivados de errores del sistema
 
-  *Difamación y daño reputacioal masivo*
+  *Difamación y daño reputacional masivo*
 
-  Para cada afirmación del informe generado, se enlaza a la fuente original. Las personas afectadas por algún informe tendrá un canal de rectificación que comprobaremos y daremos una respuesta pública. Los informes sobre las figuras o temas más consultados y mediáticos pasarán por revisiones humanas (que solo se asegurarán de que el informe no esté sesgado o haya errores).
+  Para cada afirmación del informe generado, se enlaza a la fuente original. Las personas afectadas por algún informe tendrán un canal de rectificación que comprobaremos y daremos una respuesta pública. Los informes sobre las figuras o temas más consultados y mediáticos pasarán por revisiones humanas (que solo se asegurarán de que el informe no esté sesgado o haya errores).
 
   *Desigualdad en la calidad según idioma y región*
 
@@ -34,11 +34,11 @@
 
   == Riesgos sistémicos de la escala
 
-  *Monopolización de la imformación*
+  *Monopolización de la información*
 
   De nuevo, al ser código abierto, la metodología es pública y reproducible para otras entidades. Si resulta que nuestro sistema funciona y escala bastante, es razonable que otras entidades vayan a replicarla, de esa forma, TTC solo sería una herramienta más y no la única que pueda monopolizar el mercado.
 
   *Exceso de confianza*
 
-  En este caso, dejamos una interfaz lleva al usuario a las fuentes originales ya sea en algunos casos citando en los informes o en la pestaña Fuentes donde el usuario podrá consultar todas las fuentes de las que se basa el informe, Siempre recordaremos las limitaciones del sistema y recordaremos que se use el informe como punto de partida y no una conclusión.
+  En este caso, dejamos una interfaz que lleva al usuario a las fuentes originales, ya sea en algunos casos citando en los informes o en la pestaña Fuentes, donde el usuario podrá consultar todas las fuentes en las que se basa este informe. Siempre recordaremos las limitaciones del sistema y recordaremos que se use el informe como punto de partida y no como una conclusión.
 ]
