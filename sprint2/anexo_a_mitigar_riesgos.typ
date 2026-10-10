@@ -2,7 +2,7 @@
 #import "../lib/utils.typ": h4, pretty_box
 
 #let sprint = 2
-#let anexo = "D"
+#let anexo = "F"
 #let fecha_entrega = datetime(year: 2026, month: 10, day: 11)
 #let nombre = "Mitigación de riesgos"
 
