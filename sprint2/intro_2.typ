@@ -1,0 +1,6 @@
+= Introducción
+Durante este Sprint hemos concretando la arquitectura técnica, creado un _mock-up_ de su interfaz de usuario y estudiado distintos desafios éticos y legales. 
+
+Primero hemos analizado el Reglamento Europeo de Inteligencia Artifial @aesia_reglamento_ia, considerando que nuestro sistema encaja en un sistema de riesgo limitado. También hemos estudiado la Ley Orgánica 1/1982 @ley_1982 y a partir de ello hemos propuesto controles para verificar la procedencia de fuentes y la posibilidad de supervisión humana en caso de vulnerar algún derecho. Esto se puede ver en : #link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%202B%20-%20Responsabilidad%20legal.pdf")[Apéndice B: responsabilidad legal]
+
+Finalmente, hemos estudiado las condiciones legales para utilizar noticias y extraer información a través de _web scraping_ y APIs, priorizando el acceso de manera consentida y sin guardar ni reproducir los contenidos originales. Para ver más: #link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%202C%20-%20Uso%20de%20Informaci%C3%B3n.pdf")[Apéndice C: uso de información]
