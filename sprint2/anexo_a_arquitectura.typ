@@ -30,7 +30,7 @@
 
   == Afirmaciones
 
-  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con que clase de afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones, etc. Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de dónde proceden.
+  Pueden existir diferentes tipos de afirmaciones. Las afirmaciones se pueden clasificar principalmente por tipo y por grado de veracidad. El grado de veracidad es un número comprendido entre 0 y 1 e indica la certeza que se tiene de que la afirmación haya sido publicada o dicha por la persona correspondiente. Por otro lado, el tipo de afirmación indica con qué clase de afirmación estamos trabajando. Podemos encontrar datos/hechos, opiniones, etc. Las afirmaciones siempre tienen una fuente asociada que permite verificarlas y saber de dónde proceden.
 
   == Temas
 
@@ -46,13 +46,13 @@
 
   = Módulo de Internet
 
-  Este módulo se encarga de obtener información de Internet a través de distintos medios como pueden ser las RRSS, noticias o declaraciones en sitios oficiales.
+  Este módulo se encarga de obtener información de Internet a través de distintos medios como pueden ser las redes sociales, noticias o declaraciones en sitios oficiales.
 
   == Fuentes de información.
 
   === Noticias
 
-  Para extraer los datos de medios de prensa utilizaremos de manera principal web scrapping o RSS. Para realizar web scrapping debemos de tener cuidado con los términos que ponen los periódicos para ser web scrappeados. Estudiaremos cada medio y diseñaremos un scrapper para cada uno atentiendo a restricciones como el `robot.txt` de la web. En los casos que no sea legal realizar este scrappeo automatizado porque la información no sea pública o no esté disponible optaremos por subscribirnos al periódico o contactar directamente con el mismo para que nos permita usar sus publicaciones.
+  Para extraer los datos de medios de prensa utilizaremos de manera principal web scrapping o RSS. Para realizar web scrapping debemos de tener cuidado con los términos que ponen los periódicos para ser web scrappeados. Estudiaremos cada medio y diseñaremos un scrapper para cada uno atentiendo a restricciones como el `robot.txt` de la web. En los casos que no sea legal realizar este scrappeo automatizado porque la información no sea pública o no esté disponible, optaremos por subscribirnos al periódico o contactar directamente con el mismo para que nos permita usar sus publicaciones.
 
   === Redes sociales (_X_)
 
