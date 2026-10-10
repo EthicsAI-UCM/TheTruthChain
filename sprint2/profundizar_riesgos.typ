@@ -4,11 +4,11 @@ Partiendo de los riesgos del Sprint 1, los escalamos a un escenerio de cientos d
 
 === Riesgos derivados de errores del sistema
 
-*Difamación y daño reputacioal masivo*
+*Difamación y daño reputacional masivo*
 
 Aunque TTC no emite conclusiones, sino que muestra información contrastada para que el usuario decida, un 1% de error a escala de cientos de millones de usuarios sigue implicando millones de personas expuestas a una presentación errónea de sus declaraciones. El sistema puede:
 
-- Priorizar fuentes que distorsuinan una declaración.
+- Priorizar fuentes que distorsionan una declaración.
 - Atribuir mal una cita o sacarla de contexto.
 - Ordenar la información de forma que induzca a una interpretación hostil.
 
@@ -30,10 +30,10 @@ Los gobiernos y otras entidades de poder podrían presionar a la ONG para que re
 
 === Riesgos sistémicos de la escala
 
-*Monopolización de la imformación*
+*Monopolización de la información*
 
-Si nuestro sistema llega a usarse a gran escala y tener una influencia grande en la sociedad, nuestro sistema se puede convertir en esa fuente única a la que los usuarios acceden para informarse, de forma que los informes generados por el sistema pasan a definir cómo entiende la realidad una parte importante de la población. Cualquier sesgo podría tener incluencia global.
+Si nuestro sistema llega a usarse a gran escala y tener una influencia grande en la sociedad, nuestro sistema se puede convertir en esa fuente única a la que los usuarios acceden para informarse, de forma que los informes generados por el sistema pasan a definir cómo entiende la realidad una parte importante de la población. Cualquier sesgo podría tener influencia global.
 
 *Exceso de confianza*
 
-Nuestra idea es generar informes para que el usuario tenga información ordenada en su mano y que pueda contrastar toda la información consultando a las fuentes originales para que pueda reflexionar, bajo su propio criterio, lo que ocurre en la realidad en la que vive. Sin embargo, no se puede descartar que si nuestro sistema llega a tener cierta influencia en la sociedad, el público pueda tener un exceso de confianza en el sistema y no consultar ninguna de las fuentes originales. TTC podría estar influenciando en las opiniones de la gente aunque no es lo que predenda.
+Nuestra idea es generar informes para que el usuario tenga información ordenada en su mano y que pueda contrastar toda la información consultando a las fuentes originales para que pueda reflexionar, bajo su propio criterio, lo que ocurre en la realidad en la que vive. Sin embargo, no se puede descartar que si nuestro sistema llega a tener cierta influencia en la sociedad, el público pueda tener un exceso de confianza en el sistema y no consultar ninguna de las fuentes originales. TTC podría estar influenciando en las opiniones de la gente aunque no es lo que pretenda.
