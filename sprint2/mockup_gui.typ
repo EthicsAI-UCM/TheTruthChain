@@ -1,4 +1,4 @@
-== Mock-up de la interfaz de usuario
+= Mock-up de la interfaz de usuario
 
 // TODO: rellenar con un poco de texto
 
