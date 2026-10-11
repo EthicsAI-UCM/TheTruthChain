@@ -32,12 +32,12 @@ compile_file() {
 
   local out
   if [ -z "$anexo" ]; then
-    out="${dest}/Sprint ${sprint} - ${title}.pdf"
+    out="${dest}/Sprint ${sprint}/Sprint ${sprint} - ${title}.pdf"
   else
-    out="${dest}/Sprint ${sprint}${anexo} - ${title}.pdf"
+    out="${dest}/Sprint ${sprint}/Sprint ${sprint}${anexo} - ${title}.pdf"
   fi
 
-  mkdir -p "$dest"
+  mkdir -p "${dest}/Sprint ${sprint}"
   typst compile --root . "$file" "$out"
   echo "==> ${file}  ->  ${out}"
 }
