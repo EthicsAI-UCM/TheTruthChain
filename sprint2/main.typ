@@ -9,6 +9,7 @@
 
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   #include "intro_2.typ"
+  #include "arquitectura.typ"
   #include "mockup_gui.typ"
   #include "introduccion_desafios.typ"
   #include "profundizar_riesgos.typ"
