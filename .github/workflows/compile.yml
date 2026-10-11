@@ -31,6 +31,10 @@ jobs:
 
       - uses: typst-community/setup-typst@v5
 
+      - name: Remove previously generated PDFs
+        working-directory: out
+        run: find . -type f -name '*.pdf' -delete
+
       - name: Compile into the documents branch
         working-directory: src
         run: ./build.sh ../out
