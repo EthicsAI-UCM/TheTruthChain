@@ -14,5 +14,6 @@
   #include "introduccion_desafios.typ"
   #include "profundizar_riesgos.typ"
   #include "posturas.typ"
+  #include "robustez.typ"
   #include "personalizacion.typ"
 ]
