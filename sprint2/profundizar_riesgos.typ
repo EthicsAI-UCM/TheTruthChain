@@ -32,6 +32,4 @@ Si nuestro sistema llega a usarse a gran escala y tener una influencia grande en
 
 TTC genera informes para que el usuario tenga la información ordenada y pueda contrastarla en las fuentes originales. Sin embargo, si el sistema gana influencia, el público podría confiar en él en exceso y dejar de consultar las fuentes originales. TTC podría estar influenciando en las opiniones de la gente aunque no es lo que pretenda.
 
-=== Mitigaciones
-
-#link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%202F%20-%20Mitigación%20de%20riesgos.pdf")[Apéndice F: Mitigación de riesgos]
+#link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%202/Sprint%202F%20-%20Mitigaci%C3%B3n%20de%20riesgos.pdf")[Apéndice F: Mitigación de riesgos]
