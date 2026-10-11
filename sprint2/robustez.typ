@@ -1,5 +1,5 @@
 
-= Robustez
+== Robustez
 
 El sistema de TheTruthChain no permite al usuario realizar prompts con modelo de
 lenguaje, ni interactuar con la base de conocimiento de manera imprevista. El usuario solo puede acceder a información sobre personas de interés o información sobre temas que estan disponibles en la base de conocimiento por medio de unas interfaces bastante restrictivas.
