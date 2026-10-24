@@ -1,0 +1,4 @@
+= Plausibilidad
+
+En cuanto a las partes frágiles del proyecto o con más riesgos, encontramos dos: clasificar información real o falsa y la viabilidad económica. Cada vez se contrasta menos información y esa tendencia sigue en aumento, además con el auge de la IA generativa fabricar narrativas falsas es cada vez más fácil, es por ello que crear sistemas que puedan realizar un clasificado semi/automático de la información es un reto de ingeniería bastante complicado que no requiere únicamente de informáticos. Por otro lado, financiar un proyecto libre que require de bastante personal e infraestructura para poder auditar y revisar el sistema de manera correcta no es barato. La situación no mejora si queremos mantenernos imparciales y no ser influenciado por ninguna entidad que pueda ejercer algún tipo de influencia sobre el proyecto.
+

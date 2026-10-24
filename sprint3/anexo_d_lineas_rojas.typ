@@ -2,7 +2,7 @@
 #import "../lib/utils.typ": h4, pretty_box
 
 #let sprint = 3
-#let anexo = "C"
+#let anexo = "D"
 #let fecha_entrega = datetime(year: 2026, month: 10, day: 26)
 #let nombre = "Líneas Rojas"
 #let bibliografia = path("biblio.bib")

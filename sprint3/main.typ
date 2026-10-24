@@ -8,6 +8,7 @@
 
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   #include "riesgos_y_limites.typ"
+  #include "plausibilidad.typ"
   #include "canal_reclamacion.typ"
   #include "responsabilidades.typ"
   #include "emergencia.typ"
