@@ -100,7 +100,7 @@
         - No proporcionar conclusiones y mostrar diferentes puntos de vista.
       ], 
       [
-        - Colaborar y apoyar herramientas alternaivas.
+        - Colaborar y apoyar herramientas alternativas.
         - Someterse a auditorías externas.
       ],
 
@@ -110,7 +110,7 @@
       [Alta], 
       [
         - Interfaz que lleva a las fuentes originales.
-        - Recordar las limitaciones dle informe.
+        - Recordar las limitaciones del informe.
       ], 
       [
         - Medir cuántos usuarios consultan las fuentes. Realizar cambios a partir de ese indicador.
