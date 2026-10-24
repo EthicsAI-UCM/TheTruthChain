@@ -16,7 +16,7 @@
 
   TTC recopila información de fuentes digitales y no todas las voces tienen la misma presencia en Internet. Los grandes medios, los países con más recursos y los idiomas mayoritarios producen más contenido, por lo que acaban dominando la base de fuentes del sistema. Ciertas comunidades minoritarias llegan a tener mucha menos voz en los informes cuando igual son los que saben mejor del tema. Al final, es posible que el usuario crea estar viendo una visión contrastada cuando en realidad solo ve una parte.
 
-  *Ejemplo*: en un informe sobre un conflicto en un país africano, casi todas las fuentes son de origen europeo o estadounidenses. La perspectiva de los verdaderamente afectados apenas aparece. Se percibe la visión de observadores externos.
+  *Ejemplo*: en un informe sobre unas inundaciones en una zona rural, casi todas las fuentes son grandes medios nacionales que cubren el suceso desde fuera. Los medios locales y los vecinos, que conocen de primera mano los daños y sus causas, apenas aparecen.
 
   == Estigmatización
 
