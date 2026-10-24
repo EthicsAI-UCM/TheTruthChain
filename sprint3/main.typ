@@ -13,4 +13,5 @@
   #include "emergencia.typ"
   #include "usuarios.typ"
   #include "fuentes_sesgos.typ"
+  #include "equidad.typ"
 ]
