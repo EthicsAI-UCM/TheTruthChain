@@ -10,4 +10,5 @@
   #include "riesgos_y_limites.typ"
   #include "canal_reclamacion.typ"
   #include "responsabilidades.typ"
+  #include "emergencia.typ"
 ]

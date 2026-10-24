@@ -1,2 +1,2 @@
-== Responsabilidad legal
+= Responsabilidad legal
 La responsabilidad legal recae en la propia organización, que deberá asumir las consecuencias de posibles vulneraciones de derechos o daños ocasionados a terceros. Es por ello que consideramos que la implementación y la publicación debe ser de forma responsable y asegurarse de que se cumpla la legislación. Tal cómo establece el art 25 del RGPD @rgpd2016, la protección de datos se debe integrar desde el diseño y por defecto. Para ello, contaremos con un equipo jurídico encargado de gestionar y supervisar las reclamaciones y solicitudes de revisión; y ayudar a los desarrolladores. 
