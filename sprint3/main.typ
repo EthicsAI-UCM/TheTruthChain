@@ -11,4 +11,5 @@
   #include "canal_reclamacion.typ"
   #include "responsabilidades.typ"
   #include "emergencia.typ"
+  #include "fuentes_sesgos.typ"
 ]
