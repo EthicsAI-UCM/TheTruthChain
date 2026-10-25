@@ -33,7 +33,7 @@
 
   Es imposible conocer bajo que legislación nos regiremos dentro de 10 años. Si bien ya existe una legislación vigente que regula el uso de la IA a nivel europeo (IA Act), la cual entró en vigor en 2024, nadie puede garantizar que sea actualizada o revisitada dentro de un par de años conforme la IA evoluciona. Otro aspecto importante es la protección de datos y la _GPDR_.
 
-  Si bien el riesgo de que nuestro proyecto se vuelva ilegal en un par de años es una posibilidad remota, la probabilidad no es igual a 0. Y es que recientemente se han planteado medidas que de manera camuflada amenazan la libertad de expresión. Un ejemplo de esto es la _EU Kids Act_. Estas medidas a nivel superficial paracen buenas que ya buscan proteger a los niños, pero que numerosas organizaciones han criticado, ya que suponen un riesgo para la privacidad y libertad @edri.
+  Si bien el riesgo de que nuestro proyecto se vuelva ilegal en un par de años es una posibilidad remota, la probabilidad no es igual a 0. Y es que recientemente se han planteado medidas que de manera camuflada amenazan la libertad de expresión. Un ejemplo de esto es la _EU Kids Act_. Estas medidas a nivel superficial parecen buenas ya que buscan proteger a los niños, pero que numerosas organizaciones han criticado, ya que suponen un riesgo para la privacidad y libertad @edri.
 
   Si esta clase de movimientos y proyectos se extienden y son aprobados, nada nos garantiza que de aquí a 10 años no podamos realizar nuestra labor de manera transparente e independiente, sin ningún tipo de coaxión legal.
 
