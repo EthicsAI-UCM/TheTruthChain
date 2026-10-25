@@ -27,13 +27,13 @@
 
   Existen algunas organizaciones con un objetivo similar al nuestro, por ejemplo, _factcheck.org_ o _maldita.es_. Estas organizaciones también son organizaciones sin ánimo de lucro que buscan mitigar el problema de la desinformación. En el caso de _factcheck.org_ el cuál se financia por medio de fundaciones con mayores recursos como la _Annenberg Foundation_. También aceptan donanciones de individuos y de manera ocasional de empresas como _Meta_ y _Google_ cuando lanzan campañas concretas de lucha contra la desinformación @factcheck_funding. El caso de _maldita.es_ es bastante similar, de manera ocasional colabora con empresas que permiten mantener el proyecto a flote siempre y cuando el acuerdo con estas empresas permita a la organización mantener su independencia y transparencia @maldita_funding.
 
-  Inevitablemente si queremos que el proyecto sea plausible vamos a tener que recurrir a organizaciones que nos puedan financiar.Para evitar conflictos de interés debemos de elaborar políticas internas que regulen de manera estricta el alcance de estas colaboraciones para garantizar nuestra integridad y transparencia hacia el usuario.
+  Inevitablemente si queremos que el proyecto sea plausible vamos a tener que recurrir a organizaciones que nos puedan financiar. Para evitar conflictos de interés debemos de elaborar políticas internas que regulen de manera estricta el alcance de estas colaboraciones para garantizar nuestra integridad y transparencia hacia el usuario.
 
   = Legislación sobre la IA
 
   Es imposible conocer bajo que legislación nos regiremos dentro de 10 años. Si bien ya existe una legislación vigente que regula el uso de la IA a nivel europeo (IA Act), la cual entró en vigor en 2024, nadie puede garantizar que sea actualizada o revisitada dentro de un par de años conforme la IA evoluciona. Otro aspecto importante es la protección de datos y la _GPDR_.
 
-  Si bien el riesgo de que nuestro proyecto se vuelva ilegal en un par de años es una posibilidad remota, la probabilidad no es igual a 0. Y es que recientemente se han planteado medidas que de manera camuflada amenazan la libertad de expresión. Ejempl de esto es la _EU Kids Act_. Estas medidas a nivel superficial paracen buenas que ya buscan proteger a los niños, pero que numerosas organizaciones han criticado, ya que suponen un riesgo para la privacidad y libertad @edri.
+  Si bien el riesgo de que nuestro proyecto se vuelva ilegal en un par de años es una posibilidad remota, la probabilidad no es igual a 0. Y es que recientemente se han planteado medidas que de manera camuflada amenazan la libertad de expresión. Un ejemplo de esto es la _EU Kids Act_. Estas medidas a nivel superficial paracen buenas que ya buscan proteger a los niños, pero que numerosas organizaciones han criticado, ya que suponen un riesgo para la privacidad y libertad @edri.
 
   Si esta clase de movimientos y proyectos se extienden y son aprobados, nada nos garantiza que de aquí a 10 años no podamos realizar nuestra labor de manera transparente e independientes, sin ningún tipo de coaxión legal.
 
