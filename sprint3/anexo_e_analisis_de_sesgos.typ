@@ -16,7 +16,7 @@
 
   TTC recopila información de fuentes digitales y no todas las voces tienen la misma presencia en Internet. Los grandes medios, los países con más recursos y los idiomas mayoritarios producen más contenido, por lo que acaban dominando la base de fuentes del sistema. Ciertas comunidades minoritarias llegan a tener mucha menos voz en los informes cuando igual son los que saben mejor del tema. Al final, es posible que el usuario crea estar viendo una visión contrastada cuando en realidad solo ve una parte.
 
-  *Ejemplo*: en un informe sobre un conflicto en un país africano, casi todas las fuentes son de origen europeo o estadounidenses. La perspectiva de los verdaderamente afectados apenas aparece. Se percibe la visión de observadores externos.
+  *Ejemplo*: en un informe sobre unas inundaciones en una zona rural, casi todas las fuentes son grandes medios nacionales que cubren el suceso desde fuera. Los medios locales y los vecinos, que conocen de primera mano los daños y sus causas, apenas aparecen.
 
   == Estigmatización
 
@@ -26,7 +26,7 @@
 
   == Sesgo temporal
 
-  La información reciente puede ser mucho más abundandte y accesible que la antigua. Por eso, TTC puede tener tendencia a contruir los informes con lo más reciente, perdiendo el contexto histórico (muchas veces necesario para entender una declaración o hecho). La consecuencia es que los informes pueden dar una imagen incompleta de las personas o sucesos. Esto podría favorecer a personas que tienen un historial que conviene olvidar y perjudica a quien tiene una trayectoria coherente que el informe no refleja.
+  La información reciente puede ser mucho más abundante y accesible que la antigua. Por eso, TTC puede tener tendencia a construir los informes con lo más reciente, perdiendo el contexto histórico (muchas veces necesario para entender una declaración o hecho). La consecuencia es que los informes pueden dar una imagen incompleta de las personas o sucesos. Esto podría favorecer a personas que tienen un historial que conviene olvidar y perjudica a quien tiene una trayectoria coherente que el informe no refleja.
 
   *Ejemplo*: una empresa retira un producto del mercado y el informe solo recoge las noticias de esa semana, sin mencionar que años antes ya había tenido problemas con ese mismo producto.
 ]
