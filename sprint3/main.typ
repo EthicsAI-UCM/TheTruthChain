@@ -15,4 +15,6 @@
   #include "usuarios.typ"
   #include "fuentes_sesgos.typ"
   #include "equidad.typ"
+  = Debate
+  #link("https://github.com/EthicsAI-UCM/TheTruthChain/blob/documents/Sprint%203/Sprint%203I%20-%20Aspectos%20del%20debate.pdf")[Apéndice I: Aspectos del debate]. 
 ]

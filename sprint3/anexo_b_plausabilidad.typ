@@ -4,7 +4,7 @@
 #let sprint = 3
 #let anexo = "B"
 #let fecha_entrega = datetime(year: 2026, month: 10, day: 26)
-#let nombre = "Plausabilidad"
+#let nombre = "Plausibilidad"
 #let bibliografia = path("biblio.bib")
 
 
