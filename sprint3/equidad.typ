@@ -1,6 +1,6 @@
 = Compromisos y métricas de equidad
 
-Dada la dificultad objetiva para medir la equidad en la actividad que desarrolla el sistema, se plantea la necesidad de hacer auditorías externas periódicas, con una periodicidad inicial de seis meses, en la cual se evaluarán los siguientes índices:
+Dada la dificultad objetiva para medir la equidad en la actividad que desarrolla el sistema, se plantea la necesidad de hacer auditorías externas periódicas, con una periodicidad inicial de seis meses, en las cuales se evaluarán los siguientes índices:
 
 *Equidad en el análisis*
 
@@ -8,7 +8,7 @@ Diferencia entre los porcentajes de acierto obtenidos al analizar declaraciones 
 
 *Trazabilidad*
 
-Número de informes que no son posible rehacerlos en base a las fuentes detalladas en él. Se define un objetivo inicial de 0. Este índice se considera fundamental en la medida de la equidad. 
+Número de informes que no es posible rehacerlos en base a las fuentes detalladas en ellos. Se define un objetivo inicial de 0. Este índice se considera fundamental en la medida de la equidad. 
 
 *Diversidad de fuentes*
 
