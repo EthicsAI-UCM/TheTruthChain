@@ -38,7 +38,7 @@
       ),
 
       [*Difamación*],
-      [Error en los informes (citas mal atribuidas, fuera de contexto o mal ordenadas) dañan la reputación de una persona ante millones de usuarios.], 
+      [Error en los informes (citas mal atribuidas, fuera de contexto o mal ordenadas) daña la reputación de una persona ante millones de usuarios.], 
       [Alta], 
       [Alta], 
       [
@@ -66,7 +66,7 @@
       ],
 
       [*Desinformación Coordinada*], 
-      [Actores malicioso inundan las fuentes con contenido falso para que TTC lo recoja y lo amplifique.], 
+      [Actores maliciosos inundan las fuentes con contenido falso para que TTC lo recoja y lo amplifique.], 
       [Alta], 
       [Alta], 
       [
@@ -87,7 +87,7 @@
         - Diversificar la financiación.
       ], 
       [
-        - Hacer pública cualquier tipo de presión o bloqueo.
+        - Hacer público cualquier tipo de presión o bloqueo.
         - Publicar informes de transparencia sobre peticiones recibidas.
       ],
 

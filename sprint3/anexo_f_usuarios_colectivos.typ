@@ -17,7 +17,7 @@
   Distinguimos tres grupos de usuarios: 
 
   - *Público general*: cualquier persona que quiera informarse sobre una persona de interés o un suceso y ver cómo lo presentan las distintas fuentes.
-  - *Profesionales de la información*: periodistas y verificadores que usan TTC como herramienta de apoyo en sus trabajo, por ejemplo para encontrar la fuente original de una declaración hecha por una persona pública.
+  - *Profesionales de la información*: periodistas y verificadores que usan TTC como herramienta de apoyo en su trabajo, por ejemplo para encontrar la fuente original de una declaración hecha por una persona pública.
   - *Auditores*: Revisan el código abierto y la metodología de selección de fuentes en busca de fallos y sesgos. 
 
   == Personas afectadas
@@ -39,10 +39,10 @@
   = Colectivos Vulnerables
 
   == ¿Quiénes son?
-  - *Personas con discapacidad*: Aunque TTC intenta ofrecer todo tipo de opciones de accesibilidad a los usuarios que lo necesiten, las fuentes originales pueden no ofrecerlo. Una persona con discapacidad visual puede tener dificultades a la hora de consultar una fuente que no ofrezca funciones de accesibilidad por su propia cuenta.
+  - *Personas con discapacidad*: Aunque TTC intenta ofrecer todo tipo de opciones de accesibilidad a los usuarios que lo necesiten, las fuentes originales pueden no ofrecerlas. Una persona con discapacidad visual puede tener dificultades a la hora de consultar una fuente que no ofrezca funciones de accesibilidad por su propia cuenta.
   - *Personas con baja renta*: Una fuente puede aparecer en una plataforma de noticias de pago, las personas de este grupo pueden tener dificultades a la hora de contrastar la fuente original.
   - *Personas mayores*: Suelen ser las personas con menos experiencia con plataformas digitales e IA. Pueden tener dificultades a la hora de utilizar la plataforma: no saber cómo encontrar las fuentes originales o desconocer de la existencia de una plataforma de reclamación. Intentaremos ofrecer una interfaz que sea sencilla de utilizar y ventanas de información/ayuda. 
-  - *Personas con baja alfabetización mediática*: Son aquellas personas que tienen baja capacidad de acceder, analizar, crear y evaluar la información que les llegan desde diferentes canales y medios de comunicación @alfabetizacion. Pueden tomar el informe de TTC como una verdad cerrada sin consultar las fuentes orignales.
+  - *Personas con baja alfabetización mediática*: Son aquellas personas que tienen baja capacidad de acceder, analizar, crear y evaluar la información que les llega desde diferentes canales y medios de comunicación @alfabetizacion. Pueden tomar el informe de TTC como una verdad cerrada sin consultar las fuentes orignales.
 
   == Interseccionalidad
   Los cuatro colectivos comparten la dificultad de contrastar el informe que genera TTC con las fuentes originales. Esta barrera se refuerza cuando una persona pertenece a más de un colectivo, por ejemplo una persona mayor y con baja alfabetización mediática tendrá más dificultades que una persona mayor con buena formación, aunque esta última no sepa cómo manejarse al principio con la herramienta con el paso del tiempo le resultará más sencillo y con su buena formalización mediática podrá contrastar fuentes.
