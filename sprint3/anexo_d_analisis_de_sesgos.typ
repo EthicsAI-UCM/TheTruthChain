@@ -26,7 +26,7 @@
 
   == Sesgo temporal
 
-  La información reciente puede ser mucho más abundandte y accesible que la antigua. Por eso, TTC puede tener tendencia a contruir los informes con lo más reciente, perdiendo el contexto histórico (muchas veces necesario para entender una declaración o hecho). La consecuencia es que los informes pueden dar una imagen incompleta de las personas o sucesos. Esto podría favorecer a personas que tienen un historial que conviene olvidar y perjudica a quien tiene una trayectoria coherente que el informe no refleja. 
+  La información reciente puede ser mucho más abundante y accesible que la antigua. Por eso, TTC puede tener tendencia a contruir los informes con lo más reciente, perdiendo el contexto histórico (muchas veces necesario para entender una declaración o hecho). La consecuencia es que los informes pueden dar una imagen incompleta de las personas o sucesos. Esto podría favorecer a personas que tienen un historial que conviene olvidar y perjudica a quien tiene una trayectoria coherente que el informe no refleja. 
 
   *Ejemplo*: una empresa retira un producto del mercado y el informe solo recoge las noticias de esa semana, sin mencionar que años antes ya había tenido problemas con ese mismo producto.
 ]
