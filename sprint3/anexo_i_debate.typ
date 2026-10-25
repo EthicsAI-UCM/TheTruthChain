@@ -9,7 +9,7 @@
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   = Tratamiento de eventos de última hora
 
-  En el debate se planteó la situación extrema de un evento como el apagón. En este evento empezó a circular gran cantidad información falsa y bulos durante las primeras horas del evento. Intentar filtrar esta información en un episodio de caos y desconcierto como el que se vivió en esos momentos es extremadamente complicado, díficil y posiblemente imposible. Pero esto no es un problema, TTC no busca estar a la vanguardia de la información, de hecho todo lo contrario. Lo que buscamos con TTC es recopilar toda la información sobre situaciones y personas de relevancia para que no sean olvidados y se tengan en cuenta al tomar decisiones. Es por eso, que no es crítico que el sistema tenga que contar la información más reciente de las últimas horas. Podemos trabajar con información más procesada y con menos ruido horas, días e incluso semanas después del evento, ya que nuestro principal es objetivo es la recolección de sucesos o hechos a largo plazo.
+  En el debate se planteó la situación extrema de un evento como el apagón. En este evento empezó a circular gran cantidad información falsa y bulos durante las primeras horas del evento. Intentar filtrar esta información en un episodio de caos y desconcierto como el que se vivió en esos momentos es extremadamente complicado, díficil y posiblemente imposible. Pero esto no es un problema, TTC no busca estar a la vanguardia de la información, de hecho todo lo contrario. Lo que buscamos con TTC es recopilar toda la información sobre situaciones y personas de relevancia para que no sean olvidados y se tengan en cuenta al tomar decisiones. Es por eso, que no es crítico que el sistema tenga que contar la información más reciente de las últimas horas. Podemos trabajar con información más procesada y con menos ruido, aunque esto implique esperar horas, días e incluso semanas después del evento, ya que nuestro principal objetivo es la recolección de sucesos o hechos a largo plazo.
 
   = Webscrapping
 
@@ -28,9 +28,9 @@
 
   Otra de las cuestiones planteadas en el debate fue quién respondería en caso de recibir una demanda y si el proyecto debería contar con un seguro de responsabilidad civil.
 
-  Se ha estudiado el caso y la responsabilidad caería sobre la entidad que desarrolla y pública el sistema, es decir, TTC. La idea es formar un equipo jurídico que aconseje yy desarrollen protocolos de actuación que mitiguen esta problemática. No es necesario contratar un seguro de responsabilidad civil y tampoco es muy útil para muchos casos ya que no se pueden asegurar sanciones administrativas. Además las aseguradores exigen una serie de requisitos previos que puede que sean complicados de cumplir por nuestra organización debido al sector en el que nos desenvolvemos.
+  Se ha estudiado el caso y la responsabilidad caería sobre la entidad que desarrolla y pública el sistema, es decir, TTC. La idea es formar un equipo jurídico que aconseje y desarrollen protocolos de actuación que mitiguen esta problemática. No es necesario contratar un seguro de responsabilidad civil y tampoco es muy útil para muchos casos ya que no se pueden asegurar sanciones administrativas. Además las aseguradoras exigen una serie de requisitos previos que puede que sean complicados de cumplir por nuestra organización debido al sector en el que nos desenvolvemos.
 
   = Fuentes fiables
 
-  El sistema considera fiable fuentes oficiales, es decir, comunicados oficiales o institucionales de empresas, organismos o personas. La información recabada de periódicos nunca será considerada 100% fiable, salvo en casos algunos casos muy concretos. Por ejemplo transcripciones de entrevistas con la persona involucrada.
+  El sistema considera fiable fuentes oficiales, es decir, comunicados oficiales o institucionales de empresas, organismos o personas. La información recabada de periódicos nunca será considerada 100% fiable, salvo en algunos casos muy concretos. Por ejemplo transcripciones de entrevistas con la persona involucrada.
 ]
