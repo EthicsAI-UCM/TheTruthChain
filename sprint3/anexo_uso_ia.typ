@@ -10,7 +10,7 @@
 
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   Se usó la IA para la creación de un ejemplo visual para el canal de reclamaciones
-  
+
   #h4[link:]
   #pretty_box[
     ```
@@ -27,9 +27,8 @@
     ```
   ]
 
-  = Uso de la IA
 
-  Hemos usado IA para la búsqueda de fuentes que respalden el argumento de la creciente preocupación por la desinformación debido a la IA.
+  Otros aspecto en el que hemos usado IA es para la búsqueda de fuentes que respalden el argumento de la creciente preocupación por la desinformación debido a la IA.
 
   #h4[Prompt:]
   #pretty_box[
@@ -106,6 +105,81 @@
         "https://www.researchgate.net/publication/396009805_Generative_AI_and_misinformation_a_scoping_review_of_the_role_of_generative_AI_in_the_generation_detection_mitigation_and_impact_of_misinformation",
       )[*Generative AI and misinformation: a scoping review of the role of generative AI in the generation, detection, mitigation and impact of misinformation.*]
     + #link("https://arxiv.org/html/2506.03655v1")[*A Multilingual, Comparative Analysis of LLM-Based Fact-Checking.*]
+  ]
+
+  Finalmente, se ha consultado a la IA sobre el marco legal que afecta a la recolección automática de información (*web scraping*) en España, para justificar la legalidad del proceso de obtención de fuentes del sistema.
+
+  #h4[Prompt:]
+  #pretty_box[
+    ```
+    En la legislación española donde esta recogido el web scrapping
+    ```
+  ]
+
+  #h4[Salida:]
+
+  Se reproduce a continuación la respuesta, reorganizada con epígrafes y listas para facilitar su lectura.
+
+  #pretty_box[
+    #set text(size: 9pt)
+    #set par(justify: true, leading: 0.62em, spacing: 0.8em)
+    #show heading.where(level: 4): it => block(above: 1.1em, below: 0.35em)[
+      #set text(size: 10pt, weight: "bold")
+      #it
+    ]
+
+    No existe en España una norma que regule «el web scraping» como tal. Lo que hay es un *régimen de concurrencia*: según qué se extraiga, cómo se haga y para qué se use, resulta aplicable una u otra ley. Resumen por bloques:
+
+    #heading(level: 4, numbering: none, outlined: false)[1. Propiedad intelectual — LPI (RDL 1/1996)]
+
+    Es el eje principal cuando se extraen textos, noticias o páginas ajenas:
+
+    - *Arts. 17-20:* la extracción constituye un acto de _reproducción_ y, si además se publica, de _comunicación pública_, ambos sujetos al derecho exclusivo del autor (salvo límite legal o licencia).
+    - *Art. 37.1:* derecho de cita o reseña (fragmentos, con finalidad de análisis o comentario y mención de autor y fuente).
+    - *Art. 37.2:* ilustración con fines educativos o de investigación científica, sin ánimo de lucro comercial y con atribución.
+    - *Bases de datos:* art. 12 (si son originales) y *arts. 133-137*, que reconocen un derecho _sui generis_ del fabricante: prohíbe la extracción o reutilización sustancial (art. 134) y también la extracción repetida y sistemática de partes no sustanciales (art. 135), que es en la práctica la definición de un scraping masivo.
+    - *Minería de textos y datos (TDM):* *art. 67 LPI*, introducido por el *RDL 24/2021*, que traspone la Directiva (UE) 2019/790. Distingue dos regímenes: el uso con fines de investigación científica (no excluible por contrato) y el uso general, que el titular puede reservarse expresamente mediante medios legibles por máquina (metadatos, robots.txt, condiciones de uso). Es el precepto más cercano a «autorizar» el scraping.
+
+    #heading(level: 4, numbering: none, outlined: false)[2. Protección de datos — RGPD y LOPDGDD (LO 3/2018)]
+
+    Si lo extraído incluye personas físicas identificables (nombres, correos, cargos, fotografías):
+
+    - *Art. 6 RGPD:* se necesita una base jurídica, normalmente el interés legítimo, con la correspondiente ponderación.
+    - *Art. 14 RGPD:* deber de informar aunque los datos no se hayan obtenido del interesado (con la excepción de esfuerzo desproporcionado del art. 14.5.b, pero con salvaguardas).
+    - *Arts. 5, 9, 15-22, 25 y 35:* minimización, categorías especiales, derechos de supresión y oposición, privacidad desde el diseño y evaluación de impacto (EIPD) si hay perfilado a escala.
+    - *Doctrina clave:* que un dato esté publicado en internet no lo hace reutilizable (TJUE, asunto _Google Spain_, C-131/12). La AEPD ha sancionado el scraping masivo (por ejemplo, el caso de Clearview AI) y la Declaración conjunta de autoridades europeas sobre _data scraping_ (2023) lo confirma.
+
+    #heading(level: 4, numbering: none, outlined: false)[3. Competencia desleal — Ley 3/1991 (LCD)]
+
+    Es la vía más utilizada en la práctica cuando lo extraído pertenece a un competidor: art. 4 (cláusula general), art. 11 (imitación), art. 13 (violación de secretos), art. 14 (inducción al incumplimiento contractual, típica al saltarse las condiciones de uso) y art. 15 (violación de normas). Como jurisprudencia de referencia destacan los litigios de Ryanair contra eDreams, Atrápalo y On the Beach (Juzgados de lo Mercantil de Barcelona y Audiencias Provinciales), sobre scraping de vuelos e incumplimiento de condiciones de uso.
+
+    #heading(level: 4, numbering: none, outlined: false)[4. Secretos empresariales — Ley 1/2019]
+
+    El art. 2 define el secreto empresarial y el art. 13 declara ilícita la obtención de información secreta sin consentimiento de su titular, lo que cubre el scraping de áreas privadas, de contenido tras un inicio de sesión o de datos internos.
+
+    #heading(level: 4, numbering: none, outlined: false)[5. Código Penal (cuando median medios técnicos o datos personales)]
+
+    - *Art. 197:* descubrimiento y revelación de secretos (197.2 para datos personales y 197.3 para su difusión).
+    - *Art. 197 bis* (acceso ilícito a sistemas informáticos) y *art. 197 ter* (programas o instrumentos destinados a ello).
+    - *Art. 264:* daños informáticos, relevante si se satura el servidor.
+    - *Arts. 270 y 278-280:* delitos contra la propiedad intelectual y espionaje.
+    - Burlar inicios de sesión, captchas, muros de pago o límites de peticiones es el factor que suele convertir un conflicto civil en penal.
+
+    #heading(level: 4, numbering: none, outlined: false)[6. LSSI (Ley 34/2002)]
+
+    El *art. 21* prohíbe enviar comunicaciones comerciales por correo electrónico a direcciones obtenidas mediante scraping sin consentimiento previo, infracción muy sancionada por la AEPD en coordinación con el RGPD.
+
+    #heading(level: 4, numbering: none, outlined: false)[7. Normativa europea reciente (si se extrae para entrenar IA)]
+
+    - *Reglamento (UE) 2024/1689 (RIA/IA Act), art. 53.1.c y d y anexo XI:* los proveedores de modelos de propósito general deben respetar la reserva de derechos para TDM y publicar un resumen suficientemente detallado de los contenidos de entrenamiento, incluidos los obtenidos por _crawling_.
+    - *DSA (Reglamento 2022/2065), art. 40:* acceso a datos para investigadores validados, vía legal alternativa al scraping.
+    - *robots.txt:* no es una norma jurídica, pero es el estándar (RFC 9309) que acredita la reserva de derechos del art. 67 LPI y la mala fe de quien lo ignora.
+
+    #heading(level: 4, numbering: none, outlined: false)[Conclusión]
+
+    Lo más parecido a «dónde está recogido el web scraping» es el *art. 67 LPI* (TDM) tras el RDL 24/2021, pero el permiso real depende de la LPI (arts. 17-20, 37 y 133-137), el RGPD y la LOPDGDD, la LCD y el Código Penal. No existe ni un «derecho a scrapear» ni una prohibición general: extraer contenido público suele ser lícito si se respetan robots.txt y las condiciones de uso, no se eluden medidas técnicas, no se extraen bases de datos de forma sustancial o sistemática, se cita en lugar de copiar y no se tratan datos personales sin base jurídica.
+
+    #text(size: 8pt)[_Nota:_ se trata de orientación técnica y no de asesoramiento jurídico. Conviene verificar la numeración exacta de los arts. 67 y siguientes en el texto consolidado del BOE, ya que el RDL 24/2021 reorganizó ese capítulo.]
   ]
 
 ]
