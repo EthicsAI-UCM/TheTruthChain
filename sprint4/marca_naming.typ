@@ -1,0 +1,3 @@
+= Marca y naming
+
+Mantenemos el nombre *TheTruthChain* (*TTC*). La búsqueda exploratoria en la OEPM, la EUIPO y la OMPI no muestra marcas idénticas ni similares con efecto en España o en la UE. El único riesgo, bajo, es un registro japonés en la clase 9 sin efecto en nuestro territorio. Además, definimos una guía mínima de uso de marca: el código es libre, pero el nombre y el logo quedan reservados para el proyecto oficial, para evitar que copias no autorizadas difundan desinformación en nombre de TTC.
