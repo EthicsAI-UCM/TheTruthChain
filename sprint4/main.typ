@@ -9,4 +9,5 @@
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
   #include "marca_naming.typ"
   #include "reclamaciones.typ"
+  #include "comunidad.typ"
 ]
