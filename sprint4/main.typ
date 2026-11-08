@@ -13,4 +13,5 @@
   #include "marca_naming.typ"
   #include "reclamaciones.typ"
   #include "comunidad.typ"
+  #include "entrenamiento.typ"
 ]
