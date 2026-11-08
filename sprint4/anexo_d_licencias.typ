@@ -21,7 +21,7 @@ Ponemos el siguiente ejemplo para explicar mejor nuestra decisión: una empresa 
 
 == Licencias para el resto de componentes
 - En el caso de *bibliotecas y frameworks*, trataremos utilizar solo las compatibles con *AGPLv3* y mantener los avisos y condiciones que correspondan. 
-- Por el carácter delicado de la *información* con la que tratamos, no publicaremos integramente nuestro grafo de conocimiento ni aplicamos una licencia abierta de manera general. Sin embargo, los usuarios podrán consultar las afirmaciones, temas, informes y sus fuentes, asegurando de esta forma la posibilidad de verificación de la información. Estos informes creados tendrán una licencia *CC BY-SA 4.0*@cc_by_sa_4, para poder compartir y adaptar bajo la misma licencia y cumpliendo los requisitos de atribución.
+- En cuanto a la *información* los usuarios podrán consultar las afirmaciones, temas, informes y sus fuentes, asegurando de esta forma la posibilidad de su verificación. Estos informes creados tendrán una licencia *CC BY-SA 4.0*@cc_by_sa_4, para poder compartir y adaptar bajo la misma licencia y cumpliendo los requisitos de atribución.
 - En la *documentación*, que puede incluir guías de uso, de instalación, documentación técnica, etc. también aplicaremos una licencia *CC BY-SA 4.0* para favorecer a que todo el mundo pueda usarla y mejorarla con las condiciones de atribución correspondientes.
 ]
 
