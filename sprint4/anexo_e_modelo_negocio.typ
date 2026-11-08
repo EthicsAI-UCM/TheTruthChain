@@ -14,14 +14,14 @@ Nuestros clientes principales son medios, verificadores, universidades y centros
 = Modelo de negocio
 
 - *Servicios relacionados con el software*:
-  - *Una API institucional*: Las organizaciones que necesiten un *gran volumen de consultas, disponibilidad garantizada y soporte prioritario* pueden contratar este servicio.
-  - *Instancias gestionadas*: Este servicio va enfocado a grupos como verificadores y universidades que quieran usar TTC sobre *su propio archivo o sus propias fuentes*. Les ayudamos en el alojamiento y el despliegue en sus propias infraestructuras. Ejecutan *el mismo código que la instancia pública*, bajo la licencia AGPLv3, y cualquier cambio en el código que hagamos para un cliente *se publicará en el repositorio oficial*.
-- *Fuentes de ingreso no ligadas al software*: Para maximizar los ingresos y garantizar la supervivencia de TTC, aceptaremos financiación de *individuos o fundaciones afines a nuestra misión*. Además, ofreceremos productos de _merchandising_ inspirados en nuestra marca.
+  - *Una API institucional*: las organizaciones que necesiten un *gran volumen de consultas, disponibilidad garantizada y soporte prioritario* pueden contratar este servicio.
+  - *Instancias gestionadas*: este servicio va enfocado a grupos como verificadores y universidades que quieran usar TTC sobre *su propio archivo o sus propias fuentes*. Les ayudamos en el alojamiento y el despliegue en sus propias infraestructuras. Ejecutan *el mismo código que la instancia pública*, bajo la licencia AGPLv3, y cualquier cambio en el código que hagamos para un cliente *se publicará en el repositorio oficial*.
+- *Fuentes de ingreso no ligadas al software*: para maximizar los ingresos y garantizar la supervivencia de TTC, aceptaremos financiación de *individuos o fundaciones afines a nuestra misión*. Además, ofreceremos productos de _merchandising_ inspirados en nuestra marca.
 
 == ¿Cómo encaja con nuestras licencias?
 
-- *AGPLv3*: El cliente *no paga por el código*, sino por que alguien opere, mantenga y garantice el buen funcionamiento del servicio en sus infraestructuras.
-- *CC BY-SA 4.0*: Una entidad que integre nuestros informes tiene que *atribuirlos y mantener la licencia*. Cada integración amplía el alcance de TTC en lugar de competir con él.
+- *AGPLv3*: el cliente *no paga por el código*, sino por que alguien opere, mantenga y garantice el buen funcionamiento del servicio en sus infraestructuras.
+- *CC BY-SA 4.0*: una entidad que integre nuestros informes tiene que *atribuirlos y mantener la licencia*. Cada integración amplía el alcance de TTC en lugar de competir con él.
 
 == Reglas de independencia
 
@@ -54,7 +54,7 @@ No lo incluimos en el modelo de negocio porque añadiría un *muro de pago* a lo
 
 = Riesgos de _lock-in_ y conflicto con la comunidad
 
-- *Lock-in*: El código no genera _lock-in_ porque es AGPLv3 y cualquiera puede desplegarlo. El riesgo está en el *grafo de conocimiento*, que no es abierto: quien use nuestra API depende de él y, en una instancia gestionada, el grafo guarda además datos del propio cliente, como su archivo o sus fuentes. Para mitigarlo, el cliente podrá *exportar sin coste* sus datos y los informes que usa en formatos abiertos y con un esquema público, y reconstruir su propio grafo con nuestro código de extracción.
+- *Lock-in*: el código no genera _lock-in_ porque es AGPLv3 y cualquiera puede desplegarlo. El riesgo está en el *grafo de conocimiento*, que no es abierto: quien use nuestra API depende de él y, en una instancia gestionada, el grafo guarda además datos del propio cliente, como su archivo o sus fuentes. Para mitigarlo, el cliente podrá *exportar sin coste* sus datos y los informes que usa en formatos abiertos y con un esquema público, y reconstruir su propio grafo con nuestro código de extracción.
 
-- *Conflicto con la comunidad*: Parte de la comunidad puede pensar que publicamos el código pero nos quedamos con lo que tiene valor, el grafo de conocimiento. Para evitarlo explicaremos públicamente por qué no lo publicamos completo: contiene *artículos de prensa protegidos por derechos de autor y datos personales* de personas públicas. A cambio publicaremos *su esquema, los informes con sus fuentes bajo CC BY-SA 4.0 y el código de extracción*, para que cualquiera pueda construir su propio grafo.
+- *Conflicto con la comunidad*: parte de la comunidad puede pensar que publicamos el código pero nos quedamos con lo que tiene valor, el grafo de conocimiento. Para evitarlo explicaremos públicamente por qué no lo publicamos completo: contiene *artículos de prensa protegidos por derechos de autor y datos personales* de personas públicas. A cambio publicaremos *su esquema, los informes con sus fuentes bajo CC BY-SA 4.0 y el código de extracción*, para que cualquiera pueda construir su propio grafo.
 ]
