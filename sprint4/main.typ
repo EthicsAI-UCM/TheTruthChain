@@ -7,6 +7,8 @@
 #let bibliografia = path("./biblio.bib")
 
 #document(sprint: sprint, fecha_entrega: fecha_entrega, nombre: nombre, anexo: anexo, bibliografia: bibliografia)[
+  #include "intro.typ"
+  #include "licencia_resumen.typ"
   #include "marca_naming.typ"
   #include "reclamaciones.typ"
   #include "comunidad.typ"
